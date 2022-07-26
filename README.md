@@ -24,7 +24,28 @@
 | 지역과 시간대 | 국내 | GMT 9:00 |
 | 특정 IP (어뷰징) 제한 | 알버트 AI/ Nugu 스피커 유입 | 없음 |
 
+
 <br/>
+
+#### 🛠 기술 스택
+- Python
+- AWS - EC2
+- Python3 Flask
+
+#### 💻 개발 환경 및 툴
+- windows
+- pycharm
+- vim
+- SKT NUGU developers
+- Slack
+
+<br>
+<br>
+
+
+
+
+
 
 ## 1. 초성게임 앱 기능
 
@@ -58,8 +79,7 @@
 
 
 
-
-
+<br>
 
 
 
@@ -75,13 +95,18 @@
 ![play구조 2](https://user-images.githubusercontent.com/102462534/165883410-fead96c0-3650-4ff8-bf12-b7ba7da47454.png)
 ![play구조 3](https://user-images.githubusercontent.com/102462534/165883412-318cf080-5fbe-4f45-8700-084e177da7a4.png)
 
-<br/><br/>
+<br>
+
+<br>
+
 
 ## 3. API 서버 구현
 
 Python3 Flask를 이용한 API 서버를 구현하였습니다. github를 통해 관리되는 소스코드는 Nugu play에서 사용하기 위한 API 서버 및 DB 관련 코드입니다. 웹서버는 아마존 AWS에서 Flask를 통해 동작합니다. Nugu play로부터 정의된 요청(POST방식)이 오면, 그에 대한 응답을 json형태로 반환하게 됩니다.
 
 <br/><br/>
+
+
 
 ## 4. 기타 
 
